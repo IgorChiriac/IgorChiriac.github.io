@@ -1,2 +1,7 @@
-dist
-.cache
+node_modules
+/build
+/*.log
+*.lock
+/.cache
+
+package-lock.json
