@@ -20,3 +20,21 @@ body {
 #app {
   height: 100%;
 }
+
+#main {
+  margin-left: 25%;
+  max-width: none;
+  padding: 6em 3em 3em 3em;
+  width: calc(100% - 25%);
+  background-color: red;
+  height: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+  #main {
+    margin: 0;
+    padding: 6em 4em;
+    width: 100%;
+    background-color: green;
+  }
+}
